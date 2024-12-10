@@ -2,7 +2,7 @@
 Namp in a Docker image
 
 # To Build
-docker build -it nmap:{Version You Want} {Path of the Docker File} --no-cache
+docker build -t nmap:{Version You Want} {Path of the Docker File} --no-cache
 
 # To Run
 docker run -it --rm --network host nmap:{Version You Want} bash
